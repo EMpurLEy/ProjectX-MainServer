@@ -114,8 +114,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\DbContext\IProjectConetext.cs" />
     <Compile Include="Models\UserRoleRto.cs" />
     <Compile Include="Models\UserRto.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
