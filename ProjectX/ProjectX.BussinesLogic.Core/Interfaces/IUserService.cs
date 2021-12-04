@@ -9,7 +9,12 @@ namespace ProjectX.BussinesLogic.Core.Interfaces
 {
     public interface IUserService
     {
-        Task<UserInformationBlo> RegisterWithPhone(string numberPrefix, string number, string password);
-        Task<UserInformationBlo> RegisterWithPassword();
+        Task<UserInformationBlo> RegisterWithPhone(int numberPrefix, int number, string password);
+        Task<UserInformationBlo> AuthWithPhone(int numberPrefix, int number, string password);
+        Task<UserInformationBlo> AuthWithEmail(string email, string password);
+        Task<UserInformationBlo> AuthWihLogin(string login, string password);
+        Task<UserInformationBlo> Get(int userId);
+        Task<UserInformationBlo> Update(int numberPrefix, int number, string password, UserUpdateBlo userUpdateblo);
+        Task<bool> DoesExist(int numberPrefix, int number);
     }
 }

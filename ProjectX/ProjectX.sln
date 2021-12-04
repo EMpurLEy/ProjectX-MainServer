@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectX.BussinesLogic", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectX.BussinesLogic.Core", "ProjectX.BussinesLogic.Core\ProjectX.BussinesLogic.Core.csproj", "{1CBB5336-8D61-4587-9169-38F97366B985}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4E525AF8-0690-4BCD-A305-394435DD26C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharedd", "Sharedd\Sharedd.csproj", "{9C0B863E-2E67-4DC6-81E9-EC14BC5A87FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{1CBB5336-8D61-4587-9169-38F97366B985}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CBB5336-8D61-4587-9169-38F97366B985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CBB5336-8D61-4587-9169-38F97366B985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0B863E-2E67-4DC6-81E9-EC14BC5A87FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0B863E-2E67-4DC6-81E9-EC14BC5A87FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0B863E-2E67-4DC6-81E9-EC14BC5A87FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0B863E-2E67-4DC6-81E9-EC14BC5A87FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{32EF38D1-D31E-457B-AA65-98F5BB54B895} = {E7F314AD-F9AB-47EA-9017-BA70FAA89A03}
 		{B7374CDB-3964-4A71-8A98-FCA9A4EFCBD8} = {AA45F2EB-845F-49BF-A3AC-58754DA2D21B}
 		{1CBB5336-8D61-4587-9169-38F97366B985} = {AA45F2EB-845F-49BF-A3AC-58754DA2D21B}
+		{9C0B863E-2E67-4DC6-81E9-EC14BC5A87FB} = {4E525AF8-0690-4BCD-A305-394435DD26C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2E93A34-2C5E-41F4-A41A-BD8CE1B86170}

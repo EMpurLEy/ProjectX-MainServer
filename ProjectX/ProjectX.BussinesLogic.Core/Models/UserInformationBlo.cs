@@ -8,6 +8,7 @@ namespace ProjectX.BussinesLogic.Core.Models
 {
     public class UserInformationBlo
     {
+        public int Id { get; set; }
         public string Email { get; set; }
         public string PhoneNumberPrefix { get; set; }
         public string PhoneNumber { get; set; }
@@ -16,5 +17,6 @@ namespace ProjectX.BussinesLogic.Core.Models
         public string Patronymic { get; set; }
         public DateTimeOffset Birthday { get; set; }
         public string AvatarUrl { get; set; }
+        public bool IsBoy { get; set; }
     }
 }

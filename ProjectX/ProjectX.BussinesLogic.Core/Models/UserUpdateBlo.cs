@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProjectX.BussinesLogic.Core.Models
 {
-    class UserUpdateBlo
+     public class UserUpdateBlo
     {
+        public string Id { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
         public string PhoneNumberPrefix { get; set; }
@@ -17,5 +18,7 @@ namespace ProjectX.BussinesLogic.Core.Models
         public string Patronymic { get; set; }
         public DateTimeOffset Birthday { get; set; }
         public string AvatarUrl { get; set; }
+        public string Login { get; set; }
+        public bool IsBoy { get; set; }
     }
 }

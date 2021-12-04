@@ -10,6 +10,6 @@ namespace ProjectX.DataAccess.Core.Interfaces.DbContext
     {
         DbSet<UserRto> Users { get; set; }
         DbSet<UserRoleRto> UserRoles { get; set; }
-        Task<int> SaveChangesAync(CancellationToken cancellationToken = default);
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

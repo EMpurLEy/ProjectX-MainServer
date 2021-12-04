@@ -18,9 +18,6 @@ namespace ProjectX.DataAccess.DbContext
         public DbSet<UserRto> Users { get;set; }
         public DbSet<UserRoleRto> UserRoles { get ; set; }
 
-        public Task<int> SaveChangesAync(CancellationToken cancellationToken = default)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

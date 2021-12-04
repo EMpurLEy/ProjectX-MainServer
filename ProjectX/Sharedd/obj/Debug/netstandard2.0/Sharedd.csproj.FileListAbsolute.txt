@@ -1,0 +1,9 @@
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\bin\Debug\netstandard2.0\Sharedd.deps.json
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\bin\Debug\netstandard2.0\Sharedd.dll
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\bin\Debug\netstandard2.0\Sharedd.pdb
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\obj\Debug\netstandard2.0\Sharedd.csprojAssemblyReference.cache
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\obj\Debug\netstandard2.0\Sharedd.AssemblyInfoInputs.cache
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\obj\Debug\netstandard2.0\Sharedd.AssemblyInfo.cs
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\obj\Debug\netstandard2.0\Sharedd.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\obj\Debug\netstandard2.0\Sharedd.dll
+C:\Users\StudentDev\Documents\GitHub\ProjectX-MainServer\ProjectX\Sharedd\obj\Debug\netstandard2.0\Sharedd.pdb

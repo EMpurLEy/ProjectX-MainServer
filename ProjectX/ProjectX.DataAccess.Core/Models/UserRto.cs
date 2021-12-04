@@ -7,7 +7,7 @@ namespace ProjectX.DataAccess.Core.Models
     [Table("User")]
     public class UserRto
     {
-      [Key] public int id { get; set; } 
+      [Key] public int Id { get; set; } 
       public string Email { get; set; }
       public string Login { get; set; }
       public bool IsBoy { get; set; }
