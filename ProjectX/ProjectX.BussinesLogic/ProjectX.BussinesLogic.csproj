@@ -127,6 +127,10 @@
       <Project>{32EF38D1-D31E-457B-AA65-98F5BB54B895}</Project>
       <Name>ProjectX.DataAccess.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Sharedd\Sharedd.csproj">
+      <Project>{9C0B863E-2E67-4DC6-81E9-EC14BC5A87FB}</Project>
+      <Name>Sharedd</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
